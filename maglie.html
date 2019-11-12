@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>Tipi maglie</title>
+</head>
+<body>
+
+	<form name="f1" action="inserisciAuto.php" method="GET">
+		<h1>Auto</h1>
+
+		Username:&nbsp;<input type="text" name="cognome" value="" /><br>
+		Email:&nbsp;<input type="email" name="email" value="" /><br>
+		Password:&nbsp;<input type="password" name="password" value="" /><br>
+
+		Tipo Maglia:&nbsp;
+		<select name="marca">
+			<option value="1">Felpa</option>
+			<option value="2">T-shirt</option>
+			<option value="3">Polo</option>
+		</select><br>
+
+		Filtri:
+			colore:
+				<input type="checkbox" name="colore" value="1"/>blu&nbsp;
+				<input type="checkbox" name="colore" value="2"/>giallo&nbsp;
+				<input type="checkbox" name="colore" value="3"/>verde&nbsp;
+				<input type="checkbox" name="colore" value="4"/>nero&nbsp;
+				<input type="checkbox" name="colore" value="5"/>bianco<br>
+			taglia:
+				<input type="checkbox" name="taglia" value="1"/>S&nbsp;
+				<input type="checkbox" name="taglia" value="2"/>M&nbsp;
+				<input type="checkbox" name="taglia" value="3"/>L&nbsp;
+				<input type="checkbox" name="taglia" value="4"/>XL&nbsp;
+				<input type="checkbox" name="taglia" value="5"/>XXL<br>
+			prezzo:
+				<input type="checkbox" name="prezzo" value="1"/>0-50&nbsp;
+				<input type="checkbox" name="prezzo" value="2"/>50-100&nbsp;
+				<input type="checkbox" name="prezzo" value="3"/>100-200&nbsp;
+				<input type="checkbox" name="prezzo" value="4"/>200-500&nbsp;
+				<input type="checkbox" name="prezzo" value="5"/>500-1000<br>
+			collezzione:
+				<input type="checkbox" name="collezione" value="1"/>Autunno/Inverno&nbsp;
+				<input type="checkbox" name="collezione" value="2"/>Primavera/Estate&nbsp;
+			brand:
+				<input type="checkbox" name="brand" value="1"/>Gucci&nbsp;
+				<input type="checkbox" name="brand" value="2"/>Vetemans&nbsp;
+				<input type="checkbox" name="brand" value="3"/>Luis Vuitton&nbsp;
+				<input type="checkbox" name="brand" value="4"/>Burberry&nbsp;
+				<input type="checkbox" name="brand" value="5"/>Fendi<br>
+
+		<input type="submit" name="bInvia" value="invia" />
+
+	</form>
+
+</body>
+</html>
